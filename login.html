@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <header>
+      <div class="homePage">
+        <div class="logo">
+          <h2>MOVIE<span>DOM</span></h2>
+        </div>
+        <div class="btns">
+          <button id="goLogin">Login</button>
+          <button id="goSignUp">Sign up</button>
+        </div>
+      </div>
+      <div class="registerPage">
+        <h2>Sign up</h2>
+        <div class="btns">
+          <h4>Name</h4>
+          <input
+            type="text"
+            id="r_name"
+            class="inp11"
+            placeholder="sitiago@gmail.com"
+          />
+          <h4>Email</h4>
+          <input
+            type="email"
+            id="r_email"
+            class="inp11"
+            placeholder="sitiago@gmail.com"
+          />
+          <h4>Password</h4>
+          <input type="password" id="r_pass" class="inp11" placeholder=". . . . . . ." />
+          <h4>Re-type Password</h4>
+          <input type="password" id="r_r_pass" class="inp11" placeholder=". . . . . . ."/>
+        </div>
+        <button id="regBtn">Sign Up</button>
+        <p id="r_error"></p>
+      </div>
+      <div class="loginPage">
+        <h2>Login</h2>
+        <div class="btns">
+          <h4 class="pass">Email</h4>
+          <input
+            type="email"
+            id="l_email"
+            placeholder="sitiago@gmail.com"
+            class="inp11"
+          />
+          <h4 class="pass1">Password</h4>
+          <input
+            type="password"
+            id="l_pass"
+            placeholder=". . . . . . ."
+            class="inp11"
+          />
+          <a href="#">Forgot password</a>
+        </div>
+
+        <button id="logBtn">Login</button>
+        <p id="log_error"></p>
+      </div>
+    </header>
+    <script src="login.js"></script>
+  </body>
+</html>

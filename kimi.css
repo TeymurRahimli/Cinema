@@ -1,0 +1,152 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+.kimi_head {
+  margin-top: 71px;
+  font-weight: 800;
+  font-size: 32px;
+  color: white;
+  margin-bottom: 28px;
+}
+.kimi_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.kimi_img {
+  width: 286px;
+  margin-bottom: 24px;
+}
+.kimi_img img {
+  width: 286px;
+  margin-bottom: 24px;
+}
+.kimi_img .img_text {
+  color: #8b8b8b;
+  display: flex;
+  margin-bottom: 18px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.kimi_img .img_text svg {
+  margin-right: 16px;
+  transform: translateY(-3px);
+}
+.kimi_text ul {
+  display: flex;
+  color: white;
+  gap: 47px;
+  list-style: none;
+  font-weight: 500;
+  margin-bottom: 29px;
+  font-size: 20px;
+}
+.kimi_text ul li:nth-child(1) {
+  color: #c00511;
+  border-bottom: 2px solid #c00511;
+  padding-bottom: 9px;
+}
+.kimi_text p {
+  max-width: 766px;
+  background: linear-gradient(
+    177.88deg,
+    #8b8b8b 43.47%,
+    rgba(139, 139, 139, 0) 119.2%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 69px;
+  font-weight: 400;
+  font-size: 20px;
+  /* text-fill-color: transparent; */
+}
+.kimi_text .kimi_btns {
+  display: flex;
+  gap: 73px;
+  text-align: center;
+}
+.kimi_text button {
+  width: 179px;
+  height: 47px;
+  background: #c00511;
+  border-radius: 90px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  color: white;
+  border: none;
+}
+.kimi_text .icons {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+.kimi_text .icons div {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kimi_text .icons div:nth-child(2) {
+  border: 3px solid #c00511;
+}
+.body_kimi {
+  display: flex;
+  justify-content: space-between;
+}
+.div1 {
+  margin-bottom: 15px;
+}
+.body_actors {
+  margin-left: 100px;
+  /* gap: 15px; */
+}
+.ok {
+  margin-bottom: 15px;
+  margin-left: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+}
+.div1 .img {
+  display: flex;
+  gap: 15px;
+}
+.div1 .text h6 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #c00511;
+}
+.div1 .text p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+.svg {
+  margin-left: 70px;
+}
+.body_video {
+  max-width: 900px;
+  padding-top: 30px;
+  /* margin-left: 230px; */
+}
+.ok2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7a7a7a;
+  padding-bottom: 33px;
+}
+.videos video {
+  border-radius: 20px;
+}

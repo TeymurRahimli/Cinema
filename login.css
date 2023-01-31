@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.homePage,
+.registerPage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homePage h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.homePage h2 span {
+  color: #c00511;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+button {
+  width: 255px;
+  height: 40px;
+  background: rgba(217, 217, 217, 0.16);
+  border: 1px solid #ffffff;
+  border-radius: 90px;
+  color: #c00511;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.btns button:last-child {
+  background: #c00511;
+  border: 2px solid #c00511;
+  color: white;
+}
+.loginPage,
+.registerPage {
+  display: none;
+}
+.loginPage h2 {
+  font-weight: 700;
+  font-size: 26px;
+  color: white;
+}
+.loginPage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+.loginPage .pass {
+  transform: translateY(20px);
+  color: white;
+}
+.loginPage .pass1 {
+  transform: translateY(20px);
+  color: white;
+}
+.inp11 {
+  background: none;
+  color: white;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(196, 196, 196, 0.61);
+  width: 330px;
+}
+.loginPage a {
+  color: #8b8b8b;
+  text-decoration: none;
+}
+.registerPage h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 26px;
+}
+h4 {
+  transform: translateY(20px);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
